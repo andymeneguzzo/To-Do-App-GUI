@@ -1,3 +1,5 @@
+// Task class to manage task attributes
+
 #include "Task.h"
 
 Task::Task(int id, const std::string& description) : id(id), description(description) {}
