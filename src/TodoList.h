@@ -21,6 +21,9 @@ class ToDoList {
         void viewTasks() const;
         void loadFromFile();
         void saveToFile() const;
+
+        // Metodo getter per i task
+        std::vector<Task> getTasks() const;
 };
 
 #endif // TODOLIST_H

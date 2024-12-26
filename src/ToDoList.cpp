@@ -88,3 +88,7 @@ void ToDoList::saveToFile() const {
         outFile << task.getId() << " " << task.getDescription() << std::endl;
     }
 }
+
+std::vector<Task> ToDoList::getTasks() const {
+    return tasks;
+}
